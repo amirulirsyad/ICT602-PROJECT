@@ -43,21 +43,69 @@
 <h2 style="text-align:center">Multiple Slideshows</h2>
 
 <p>Slideshow 1:</p>
-<div class="slideshow-container">
-  <div class="mySlides1">
-    <img src="src/sukancad.png" style="width:100%" alt=""/> 
-	</div>
-  <div class="mySlides1">
-    <img src="src/duniacad.png" style="width:100%" alt=""/>
-	</div>
-  <div class="mySlides1">
-    <img src="src/covidcad.png" style="width:100%" alt=""/> 
-	</div>
+	  
+<h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p>
 
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+<div class="slideshow-container">
+
+<div class="autoSlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="src/sukancad.png" style="width:100%">
+  <div class="text">Caption Text</div>
 </div>
 
+<div class="autoSlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="src/duniacad.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="autoSlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="src/covidcad.png" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+	<div class="autoSlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="src/sukancad.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+	
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+	  
+<script>
+var slideIndex1 = 0;
+showSlidesAuto();
+
+function showSlidesAuto() {
+  var i;
+  var slides1 = document.getElementsByClassName("autoSlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots[slideIndex1-1].className += " active";
+  setTimeout(showSlidesAuto, 2500); // Change image every 2 seconds
+}
+</script>
+
+	  
 <div class="mdl-grid">
   <div class="mdl-cell mdl-cell--4-col">
 	<p>Slideshow 2:</p>
@@ -72,8 +120,8 @@
     <img src="src/covidcad.png" style="width:100%" alt=""/> 
 	</div>
 
-  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 	</div>
   <div class="mdl-cell mdl-cell--4-col">
@@ -89,8 +137,8 @@
     <img src="src/covidcad.png" style="width:100%" alt=""/> 
 	</div>
 
-  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
 	</div>
   <div class="mdl-cell mdl-cell--4-col">
@@ -106,18 +154,17 @@
     <img src="src/covidcad.png" style="width:100%" alt=""/> 
 	</div>
 
-  <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
 </div>
 	</div>
 </div>
 <script>
-var slideIndex = [1,1,1,1];
-var slideId = ["mySlides1","mySlides2","mySlides3","mySlides4"]
+var slideIndex = [1,1,1];
+var slideId = ["mySlides2","mySlides3","mySlides4"]
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
-showSlides(1, 3);
 
 
 function plusSlides(n, no) {
