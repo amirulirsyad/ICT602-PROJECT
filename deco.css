@@ -14,7 +14,8 @@ body {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background: linear-gradient(to left, #20002c,
+ #cbb4d4);
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -33,14 +34,16 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
+  background: linear-gradient(to right, #20002c,
+ #cbb4d4);
   width: 100%;
   padding: 30px;
 }
 
 /* Add a card effect for articles */
 .card {
-   background-color: white;
+   background: linear-gradient(to left, #20002c,
+ #cbb4d4);
    padding: 20px;
    margin-top: 20px;
 }
@@ -81,4 +84,9 @@ p {
 
 .txt{
   color: aliceblue;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #20002c,
+ #cbb4d4);
 }
