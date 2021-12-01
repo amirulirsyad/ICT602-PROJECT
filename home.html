@@ -3,13 +3,18 @@
 <head><title>BERITA HARIAN</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-amber.min.css" />
+	
 	<style type="text/css">
     @import url("home_deco.css");
+    .title {
+}
     </style>
+	
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	<meta name="viewport" content="width=device-witdh, initial-scale=1.0">
 	</head>
-<body>
+<body style="background: linear-gradient(to left, #ff8b3d,
+ #F2F3F4);">
 	<!-- Always shows a header, even in smaller screens. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
@@ -40,36 +45,34 @@
   <main class="mdl-layout__content">
     <div class="page-content"><!-- Your content goes here --></div>
 	  
-<h2 style="text-align:center">Multiple Slideshows</h2>
+<h2 class="title" style="text-align:center">HALAMAN UTAMA</h2>
 
-<p>Slideshow 1:</p>
-	  
-<h2>Automatic Slideshow</h2>
-<p>Change image every 2 seconds:</p>
+
+
 
 <div class="slideshow-container">
 
 <div class="autoSlides fade">
   <div class="numbertext">1 / 4</div>
-  <img src="src/sukancad.png" style="width:100%">
-  <div class="text">Caption Text</div>
+  <img src="src/sukancad.png" style="width:100%" alt="">
+  <div class="text">Hanya 20,000 tiket dijual aksi final Piala Malaysia</div>
 </div>
 
 <div class="autoSlides fade">
   <div class="numbertext">2 / 4</div>
-  <img src="src/duniacad.png" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="src/duniacad.png" style="width:100%" alt="">
+  <div class="text">Kapal perang AS transit di selat Taiwan</div>
 </div>
 
 <div class="autoSlides fade">
   <div class="numbertext">3 / 4</div>
-  <img src="src/covidcad.png" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="src/covidcad.png" style="width:100%" alt="">
+  <div class="text">WHO bimbang 700,000 lagi kematian akibat COVID-19 di Eropah</div>
 </div>
 
 	<div class="autoSlides fade">
   <div class="numbertext">4 / 4</div>
-  <img src="src/sukancad.png" style="width:100%">
+  <img src="src/sukancad.png" style="width:100%" alt="">
   <div class="text">Caption Two</div>
 </div>
 	
@@ -108,16 +111,16 @@ function showSlidesAuto() {
 	  
 <div class="mdl-grid">
   <div class="mdl-cell mdl-cell--4-col">
-	<p>Slideshow 2:</p>
+	<p class="sub">SUKAN</p>
 <div class="slideshow-container">
    <div class="mySlides2">
     <img src="src/sukancad.png" style="width:100%" alt=""/> 
 	</div>
   <div class="mySlides2">
-    <img src="src/duniacad.png" style="width:100%" alt=""/>
+    <img src="src/sukan2cad.png" style="width:100%" alt=""/>
 	</div>
   <div class="mySlides2">
-    <img src="src/covidcad.png" style="width:100%" alt=""/> 
+    <img src="src/sukan3cad.png" style="width:100%" alt=""/> 
 	</div>
 
   <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
@@ -125,7 +128,7 @@ function showSlidesAuto() {
 </div>
 	</div>
   <div class="mdl-cell mdl-cell--4-col">
-	<p>Slideshow 3:</p>
+	<p class="sub">DUNIA</p>
 	<div class="slideshow-container">
    <div class="mySlides3">
     <img src="src/sukancad.png" style="width:100%" alt=""/> 
@@ -142,7 +145,7 @@ function showSlidesAuto() {
 </div>
 	</div>
   <div class="mdl-cell mdl-cell--4-col">
-	<p>Slideshow 4:</p>
+	<p class="sub">COVID19</p>
 <div class="slideshow-container">
    <div class="mySlides4">
     <img src="src/sukancad.png" style="width:100%" alt=""/> 
