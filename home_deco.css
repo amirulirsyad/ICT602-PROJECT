@@ -13,7 +13,7 @@ li:not(:last-child){
 li:before{
 	content: "\058E";
 	padding-right: 1em;
-}
+background: linear-gradient(to left, #ff8b3d,#F2F3F4);
 
 * {box-sizing: border-box}
 .mySlides1, .mySlides2, .mySlides3,.mySlides4, .autoSlides {display: none}
