@@ -212,6 +212,7 @@ body {
 @media screen and (max-width: 700px) {
   .rectangle {
     padding: 20px 10px;
+	  width: 60px;
   }
 
   .level-1,
@@ -279,3 +280,7 @@ body {
 
 .footertext{
 	color:#969696}
+.reg {
+	width: 270px;
+	height: 160px;
+}
