@@ -64,7 +64,7 @@ img {vertical-align: middle;}
   bottom: 0px;
   width: 100%;
   text-align: center;
-	background: #505050;
+	background: #585858;
 }
 
 /* Number text (1/3 etc) */
@@ -133,3 +133,17 @@ img {vertical-align: middle;}
     padding-left: 10px;
     text-transform: uppercase;
 }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(255,152,0);
+  margin-top: 20px;
+}
+
+.insideFooter {
+	background-color: #282828;
+}
+
+.footertext{
+	color:#969696}
