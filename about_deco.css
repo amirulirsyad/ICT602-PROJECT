@@ -266,3 +266,17 @@ body {
 .page-footer a {
   margin-left: 4px;
 }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(255,152,0);
+  margin-top: 20px;
+}
+
+.insideFooter {
+	background-color: #282828;
+}
+
+.footertext{
+	color:#969696}
