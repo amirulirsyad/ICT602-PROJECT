@@ -103,5 +103,12 @@ body{
 	padding: 25px;
 	color : white;
 	position: relative;
+	margin-top: -10.5%
 	
+}
+.removeMargin{
+	margin-top: -20px;
+}
+.mdl-layout--large-screen-only{
+	margin: -20px;
 }
