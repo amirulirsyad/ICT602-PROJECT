@@ -83,3 +83,6 @@ body{
   background: linear-gradient(to left, #ff8b3d,
  #F2F3F4);
 }
+.slideshow-container{
+	filter: brightness(50%)
+}
