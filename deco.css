@@ -34,12 +34,7 @@
   padding: 30px;
 }
 
-/* Add a card effect for articles */
-#cardID {
-   padding: 20px;
-   margin-top: 20px;
-	background: #FFFFFF;
-}
+
 	
 
 /* Clear floats after the columns */
@@ -97,8 +92,10 @@ body{
 	padding-left: 50px;
 }
 
-.dark-mode{
-	background-color: black;
-	color: white;
-	}
-
+/* Add a card effect for articles */
+.card {
+   padding: 20px;
+   margin-top: 20px;
+	background: white;
+	color: black
+}
