@@ -35,10 +35,11 @@
 }
 
 /* Add a card effect for articles */
-.card {
-   background: white;
+.card,#cardID {
    padding: 20px;
    margin-top: 20px;
+	background: white;
+
 }
 
 /* Clear floats after the columns */
@@ -77,6 +78,7 @@ p {
 
 .txt{
   color: aliceblue;
+	text-align: center;
 }
 body{
   font-family: 'Poppins', sans-serif;
@@ -92,4 +94,10 @@ body{
 
 .txtP{
 	margin: 0px;
+	padding-left: 50px;
 }
+
+.dark-mode{
+	background:#3E3E3E;
+	color: white;
+	}
