@@ -28,8 +28,7 @@
 
 /* Fake image */
 .fakeimg {
-  background: linear-gradient(to left, #ff8b3d,
- #F2F3F4);
+  background: white;
   width: 100%;
   padding: 30px;
 }
@@ -102,7 +101,7 @@ body{
 
 .textbind{
 	padding: 25px;
-	margin-top: -15%;
+	
 	color : white;
 	position: relative;
 	
