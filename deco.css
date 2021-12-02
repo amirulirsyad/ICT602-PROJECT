@@ -86,3 +86,10 @@ body{
 .slideshow-container{
 	filter: brightness(50%)
 }
+.textFooter{
+	margin-left:20%;
+}
+
+.txtP{
+	margin: 0px;
+}
