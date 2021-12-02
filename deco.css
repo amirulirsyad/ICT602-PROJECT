@@ -101,5 +101,9 @@ body{
 }
 
 .textbind{
-	margin-top: 60px;
+	padding: 25px;
+	margin-top: -15%;
+	color : white;
+	position: relative;
+	
 }
