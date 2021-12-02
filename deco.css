@@ -92,13 +92,6 @@ body{
 	padding-left: 50px;
 }
 
-.dark-mode{
-	background-color: black;
-	color: white;
-	}
-
-
-
 /* Add a card effect for articles */
 .card {
    padding: 20px;
@@ -107,3 +100,6 @@ body{
 	color: black
 }
 
+.textbind{
+	margin-top: 60px;
+}

@@ -147,3 +147,16 @@ img {vertical-align: middle;}
 
 .footertext{
 	color:#969696}
+.textFooter{
+	margin-left:20%;
+}
+
+.txtP{
+	margin: 0px;
+	padding-left: 50px;
+	text-align: justify;
+}
+.txt{
+  color: aliceblue;
+	text-align: center;
+}
