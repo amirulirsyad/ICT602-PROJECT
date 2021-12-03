@@ -107,8 +107,11 @@ body{
 	
 }
 .removeMargin{
-	margin-top: -20px;
+	margin-top: 15px;
 }
 .mdl-layout--large-screen-only{
-	margin: -20px;
+	margin: -15px;
+}
+.addColor{
+	background: rgb(255,152,0);
 }

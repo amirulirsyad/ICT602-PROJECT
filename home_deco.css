@@ -159,4 +159,6 @@ img {vertical-align: middle;}
 .txt{
   color: aliceblue;
 	text-align: center;
+}.addColor {
+	background:rgb(255,152,0);
 }
